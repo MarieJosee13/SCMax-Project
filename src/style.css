@@ -1,13 +1,13 @@
 body {
   font-family: "Poppins", sans-serif;
-  background-color: rgba(0, 128, 128, 0.288);
+  background-color: #264251;
 }
 .container {
   max-width: 1400px;
   margin: 0 auto;
 }
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),
     url("../Images/snowy-vancouver.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -45,10 +45,26 @@ header a:hover {
   background-color: rgba(240, 255, 255, 0.664);
   border: 1px solid #fff;
 }
-
+footer {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+    url("../Images/english-bay.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+}
+footer a {
+  color: #fff;
+}
+footer a:hover {
+  text-decoration: none;
+}
 .myname {
   color: teal;
-  font-style: italic;
+
   font-weight: 600;
 }
 @media (max-width: 900px) {
