@@ -6,6 +6,14 @@ body {
   max-width: 1400px;
   margin: 0 auto;
 }
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),
     url("../Images/snowy-vancouver.jpg");
@@ -46,26 +54,52 @@ header a:hover {
   border: 1px solid #fff;
 }
 footer {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+  background-image: linear-gradient(
+      rgba(19, 18, 24, 0.7),
+      rgba(25, 25, 54, 0.7)
+    ),
     url("../Images/english-bay.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding: 100px 0;
+  padding: 60px 0;
   color: #fff;
-  text-align: center;
   width: 100%;
+}
+footer h3 {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+}
+footer p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+footer ul {
+  padding: 0;
+  max-width: 70%;
+}
+footer li {
+  list-style: none;
 }
 footer a {
   color: #fff;
+  text-decoration: none;
+}
+footer div {
+  max-width: 350px;
 }
 footer a:hover {
   text-decoration: none;
+  color: #264251;
 }
-.myname {
-  color: teal;
 
-  font-weight: 600;
+.signature a {
+  text-decoration: underline;
+}
+.signature a:hover {
+  color: #fff;
 }
 @media (max-width: 900px) {
   header {
