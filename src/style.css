@@ -81,6 +81,11 @@ main h3 {
   line-height: 1.5;
   color: #264251;
 }
+main .icons {
+  text-align: center;
+  padding-top: 30px;
+  color: #264251ce;
+}
 footer {
   background-image: linear-gradient(
       rgba(19, 18, 24, 0.7),
