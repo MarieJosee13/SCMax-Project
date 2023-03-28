@@ -7,10 +7,10 @@ body {
   margin: 0 auto;
 }
 section {
-  max-width: 1200px;
   margin: 0 auto;
-  padding: 60px 0;
+  padding: 100px;
 }
+
 .grid {
   display: grid;
   grid-gap: 50px;
@@ -59,6 +59,7 @@ header a {
 header a:hover {
   background-color: rgba(240, 255, 255, 0.664);
   border: 1px solid #fff;
+  transition: 230ms ease-in-out;
 }
 main {
   background-color: #ffffffc7;
@@ -81,10 +82,66 @@ main h3 {
   line-height: 1.5;
   color: #264251;
 }
+main h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #264251;
+}
+main h5 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #264251;
+}
+main p,
+main a {
+  color: #264251d5;
+}
 main .icons {
   text-align: center;
   padding-top: 30px;
   color: #264251ce;
+}
+main .secondary {
+  background-color: #d8e7ec;
+  text-align: center;
+}
+.card {
+  background-color: #ffffffe3;
+  padding: 30px 0 20px 0;
+}
+.card img {
+  width: 70%;
+}
+.card-adress {
+  border: 1px solid #30465233;
+  margin: 20px;
+  background-color: #fff;
+}
+.card-map {
+  width: 70%;
+}
+.btn {
+  display: block;
+  margin: 0 auto;
+  color: #fff;
+  background-color: #3b6377;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 14px 7px;
+  max-width: 200px;
+  text-decoration: none;
+  border-radius: 2px;
+}
+.btn:hover {
+  background-color: #264251;
+
+  transition: 230ms ease-in-out;
 }
 footer {
   background-image: linear-gradient(
