@@ -104,7 +104,7 @@ main .icons {
   color: #264251ce;
 }
 main .secondary {
-  background-color: #d8e7ec;
+  background-color: #d8e7ecbe;
   text-align: center;
 }
 .card {
@@ -194,6 +194,9 @@ footer a:hover {
 }
 .signature a:hover {
   color: #fff;
+}
+.text-center {
+  text-align: center;
 }
 @media (max-width: 900px) {
   header {
