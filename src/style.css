@@ -218,6 +218,11 @@ footer a:hover {
     grid-gap: 30px;
     grid-template-columns: 1fr;
   }
+  instagram-media {
+    flex-direction: column;
+    width: 60%;
+    height: 60%;
+  }
   .embed {
     display: block;
     margin: 0 auto;
